@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf</title>
+</head>
+<body>
+<span th:text="${message}"></span>
+<!--<span>[[${message}]]</span>-->
+<h3>Exam Results</h3>
+<div th:if="${grade} >= 60">
+    You passed the exam.
+    <div th:switch>
+
+    </div>
+</div>
+</body>
+</html>
