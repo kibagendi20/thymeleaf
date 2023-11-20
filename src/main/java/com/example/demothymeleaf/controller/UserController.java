@@ -11,6 +11,7 @@ public class UserController {
         model.addAttribute("message", "Hello Thymeleaf");
         double grade =90.5;
         model.addAttribute("grade", grade);
+        model.addAttribute("GPA", convertGPA(grade));
         return "demoPage";
     }
 
